@@ -1,0 +1,41 @@
+$primary-color:#23232c;
+nav {
+    background-color: $primary-color;
+    margin-bottom: 20px;
+    .brand-logo {
+        // margin-left: 10px;
+        text-transform: uppercase;
+    }
+    .nav-content {
+        background-color: $primary-color;
+    }
+    .chip {
+        color: white;
+        background-color: $primary-color;
+        img {
+            background-color: #fff;
+        }
+    }
+}
+
+main {
+    .head-cont {
+        margin: 20px 0 20px 0;
+        input {
+            width: 30%;
+        }
+    }
+    .head {
+        width: 100%;
+        margin: 10px 10px 20px 0px;
+        padding: 20px 10px 20px 10px;
+        background-color: #f2f2f2;
+    }
+}
+
+footer {
+    background-color: $primary-color;
+    .footer-copyright {
+        background-color: #212127
+    }
+}
